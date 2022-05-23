@@ -190,7 +190,7 @@ void SeparateChainingTable<TValue, TKey>::readFromFile(ifstream& ifs) {
 		File f;
 		string tempString;
 		if (!firstFile)
-			getline(ifs, tempString); // пустая строка:)
+			getline(ifs, tempString); // РїСѓСЃС‚Р°СЏ СЃС‚СЂРѕРєР°:)
 		else if (firstFile)
 			firstFile = 0;
 		getline(ifs, f.cat);
